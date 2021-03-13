@@ -1,10 +1,12 @@
-#!/bin/bash
-##----- Abdalluh Mostafa -- 16-2-2021 -------------------------------------------------------##
-##-----NOTE: This script requires root privileges, otherwise one could run the script -------##
-##---- as a sudo user who got root privileges. ----------------------------------------------##
-##----------- "sudo /bin/bash <ScriptName>" -------------------------------------------------##
-
-#------variables used------#
+#!/bin/bash 
+#######################################################################################
+#Script Name    :linux-health-check.sh
+#Description    :Bash script for linux server to check [ CPU - RAM - SWAP - TOP Processes - Disk - INode - Zombies ...] This script requires root privileges, otherwise one could run the script 
+#Author         :Abdalluh Mostafa
+#Email          :abdalluh.mostafa@gmail.com
+#Githun         :https://github.com/abdalluhmostafa/
+### 2021 
+#######################################################################################
 S="************************************"
 D="-------------------------------------"
 COLOR="y"
